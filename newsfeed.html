@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NewsFeed</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <header>
+        <div class="left-content">
+          <a href="newsfeed.html">
+            <i class="fa fa-facebook-square"></i>
+          </a>
+          <form>
+            <input
+              type="search"
+              class="search"
+              placeholder="Search everythng"
+              name="s"
+            />
+            <i class="fa fa-search"></i>
+          </form>
+        </div>
+        <div class="middle-content">
+          <ul class="page-nav">
+            <li class="active">
+              <a href="#">
+                <i class="fa fa-home"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-youtube-play"></i>
+                <span class="badge">12</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-shopping-bag"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-users"></i>
+                <span class="badge">3</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-grav"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="right-content">
+          <a href="#">
+            <img src="https://source.unsplash.com/30x30" />
+          </a>
+          <ul class="settings">
+            <li>
+              <a href="#">
+                <i class="fa fa-plus"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-comments"></i>
+                <span class="badge">20+</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-bell"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-caret-down"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <div class="container">
+        <aside class="left-content">
+          <div class="sticky-content">
+            <ul>
+              <li>
+                <a href="#">
+                  <div class="image">
+                    <img src="https://source.unsplash.com/60x60" />
+                  </div>
+                  <div class="text">Nume Prenume</div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="image"><i class="fa fa-comments"></i></div>
+                  <div class="text">Messages</div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="image"><i class="fa fa-play"></i></div>
+                  <div class="text">Live Videos</div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="image"><i class="fa fa-shopping-bag"></i></div>
+                  <div class="text">Marketplace</div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="image"><i class="fa fa-video-camera"></i></div>
+                  <div class="text">Videos</div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="image"><i class="fa fa-bookmark"></i></div>
+                  <div class="text">Pages</div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </aside>
+        <main class="middle-content">
+          <!-- START POST -->
+          <div class="post">
+            <div class="header">
+              <a href="#" class="profile-image">
+                <img src="https://source.unsplash.com/40x40" />
+              </a>
+              <div class="author">
+                <a href="#"><h4>Nume Prenume</h4></a>
+                <p class="light">3 Feb. 2022</p>
+              </div>
+              <div class="menu">
+                <i class="fa fa-ellipsis-h"></i>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="#">Report</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="content">
+              <p>Sunt in video</p>
+              <video autoplay controls muted>
+                <source src="img/video/video.mp4" type="video/mp4" />
+              </video>
+
+              <p>Sunt intre media</p>
+
+              <img src="https://source.unsplash.com/1920x1080" />
+
+              <p>Cea mai tare postare!</p>
+              <p>Cea mai tare postare!</p>
+            </div>
+            <div class="footer">
+              <ul class="buttons">
+                <li class="active">
+                  <a href="#">
+                    <i class="fa fa-thumbs-o-up"></i>
+                    <span class="actions">Like</span>
+                    <span class="count">13</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-comments-o"></i>
+                    <span class="actions">Comment</span>
+                    <span class="count">1</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-share-square-o"></i>
+                    <span class="actions">Share</span>
+                    <span class="count">21</span>
+                  </a>
+                </li>
+              </ul>
+              <ul class="comments">
+                <li class="new-comment">
+                  <a href="#">
+                    <img src="https://source.unsplash.com/30x30" />
+                  </a>
+                  <div>
+                    <input type="text" placeholder="Write comments..." />
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- END POST -->
+          <!-- START POST -->
+          <div class="post">
+            <div class="header">
+              <a href="#" class="profile-image">
+                <img src="https://source.unsplash.com/40x40" />
+              </a>
+              <div class="author">
+                <a href="#"><h4>Nume Prenume</h4></a>
+                <p class="light">3 Feb. 2022</p>
+              </div>
+              <div class="menu">
+                <i class="fa fa-ellipsis-h"></i>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="#">Report</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="content">
+              <p>Sunt in video</p>
+              <video autoplay controls muted>
+                <source src="img/video/video.mp4" type="video/mp4" />
+              </video>
+
+              <p>Sunt intre media</p>
+
+              <img src="https://source.unsplash.com/1920x1080" />
+
+              <p>Cea mai tare postare!</p>
+              <p>Cea mai tare postare!</p>
+            </div>
+            <div class="footer">
+              <ul class="buttons">
+                <li class="active">
+                  <a href="#">
+                    <i class="fa fa-thumbs-o-up"></i>
+                    <span class="actions">Like</span>
+                    <span class="count">13</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-comments-o"></i>
+                    <span class="actions">Comment</span>
+                    <span class="count">1</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-share-square-o"></i>
+                    <span class="actions">Share</span>
+                    <span class="count">21</span>
+                  </a>
+                </li>
+              </ul>
+              <ul class="comments">
+                <li class="new-comment">
+                  <a href="#">
+                    <img src="https://source.unsplash.com/30x30" />
+                  </a>
+                  <div>
+                    <input type="text" placeholder="Write comments..." />
+                  </div>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="https://source.unsplash.com/30x30" />
+                  </a>
+                  <div>
+                    <p>Cel mai tare video!</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- END POST --><!-- START POST -->
+          <div class="post">
+            <div class="header">
+              <a href="#" class="profile-image">
+                <img src="https://source.unsplash.com/40x40" />
+              </a>
+              <div class="author">
+                <a href="#"><h4>Nume Prenume</h4></a>
+                <p class="light">3 Feb. 2022</p>
+              </div>
+              <div class="menu">
+                <i class="fa fa-ellipsis-h"></i>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="#">Report</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="content">
+              <p>Sunt in video</p>
+              <video autoplay controls muted>
+                <source src="img/video/video.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <div class="footer">
+              <ul class="buttons">
+                <li class="active">
+                  <a href="#">
+                    <i class="fa fa-thumbs-o-up"></i>
+                    <span class="actions">Like</span>
+                    <span class="count">13</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-comments-o"></i>
+                    <span class="actions">Comment</span>
+                    <span class="count">1</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-share-square-o"></i>
+                    <span class="actions">Share</span>
+                    <span class="count">21</span>
+                  </a>
+                </li>
+              </ul>
+              <ul class="comments">
+                <li class="new-comment">
+                  <a href="#">
+                    <img src="https://source.unsplash.com/30x30" />
+                  </a>
+                  <div>
+                    <input type="text" placeholder="Write comments..." />
+                  </div>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="https://source.unsplash.com/30x30" />
+                  </a>
+                  <div>
+                    <p>Cel mai tare video!</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- END POST --><!-- START POST -->
+          <div class="post">
+            <div class="header">
+              <a href="#" class="profile-image">
+                <img src="https://source.unsplash.com/40x40" />
+              </a>
+              <div class="author">
+                <a href="#"><h4>Nume Prenume</h4></a>
+                <p class="light">3 Feb. 2022</p>
+              </div>
+              <div class="menu">
+                <i class="fa fa-ellipsis-h"></i>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="#">Report</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="content">
+              <p>Sunt in video</p>
+              <video autoplay controls muted>
+                <source src="img/video/video.mp4" type="video/mp4" />
+              </video>
+
+              <p>Sunt intre media</p>
+
+              <img src="https://source.unsplash.com/1920x1080" />
+
+              <p>Cea mai tare postare!</p>
+              <p>Cea mai tare postare!</p>
+            </div>
+            <div class="footer">
+              <ul class="buttons">
+                <li class="active">
+                  <a href="#">
+                    <i class="fa fa-thumbs-o-up"></i>
+                    <span class="actions">Like</span>
+                    <span class="count">13</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-comments-o"></i>
+                    <span class="actions">Comment</span>
+                    <span class="count">1</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-share-square-o"></i>
+                    <span class="actions">Share</span>
+                    <span class="count">21</span>
+                  </a>
+                </li>
+              </ul>
+              <ul class="comments">
+                <li class="new-comment">
+                  <a href="#">
+                    <img src="https://source.unsplash.com/30x30" />
+                  </a>
+                  <div>
+                    <input type="text" placeholder="Write comments..." />
+                  </div>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="https://source.unsplash.com/30x30" />
+                  </a>
+                  <div>
+                    <p>Cel mai tare video!</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- END POST --><!-- START POST -->
+          <div class="post">
+            <div class="header">
+              <a href="#" class="profile-image">
+                <img src="https://source.unsplash.com/40x40" />
+              </a>
+              <div class="author">
+                <a href="#"><h4>Nume Prenume</h4></a>
+                <p class="light">3 Feb. 2022</p>
+              </div>
+              <div class="menu">
+                <i class="fa fa-ellipsis-h"></i>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="#">Report</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="content">
+              <p>Sunt in video</p>
+              <video autoplay controls muted>
+                <source src="img/video/video.mp4" type="video/mp4" />
+              </video>
+
+              <p>Sunt intre media</p>
+
+              <img src="https://source.unsplash.com/1920x1080" />
+
+              <p>Cea mai tare postare!</p>
+              <p>Cea mai tare postare!</p>
+            </div>
+            <div class="footer">
+              <ul class="buttons">
+                <li class="active">
+                  <a href="#">
+                    <i class="fa fa-thumbs-o-up"></i>
+                    <span class="actions">Like</span>
+                    <span class="count">13</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-comments-o"></i>
+                    <span class="actions">Comment</span>
+                    <span class="count">1</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-share-square-o"></i>
+                    <span class="actions">Share</span>
+                    <span class="count">21</span>
+                  </a>
+                </li>
+              </ul>
+              <ul class="comments">
+                <li class="new-comment">
+                  <a href="#">
+                    <img src="https://source.unsplash.com/30x30" />
+                  </a>
+                  <div>
+                    <input type="text" placeholder="Write comments..." />
+                  </div>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="https://source.unsplash.com/30x30" />
+                  </a>
+                  <div>
+                    <p>Cel mai tare video!</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- END POST -->
+        </main>
+        <aside class="right-content">
+          <div class="sticky-content">
+            <ul>
+              <li class="active">
+                <a href="#">
+                  <div class="profile-image">
+                    <img src="https://source.unsplash.com/40x40" />
+                  </div>
+                  <div class="user-name">Nume Prenume</div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="profile-image">
+                    <img src="https://source.unsplash.com/41x41" />
+                  </div>
+                  <div class="user-name">Nume Prenume</div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="profile-image">
+                    <img src="https://source.unsplash.com/42x42" />
+                  </div>
+                  <div class="user-name">Nume Prenume</div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="profile-image">
+                    <img src="https://source.unsplash.com/43x43" />
+                  </div>
+                  <div class="user-name">Nume Prenume</div>
+                </a>
+              </li>
+              <li class="active">
+                <a href="#">
+                  <div class="profile-image">
+                    <img src="https://source.unsplash.com/44x44" />
+                  </div>
+                  <div class="user-name">Nume Prenume</div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="profile-image">
+                    <img src="https://source.unsplash.com/45x45" />
+                  </div>
+                  <div class="user-name">Nume Prenume</div>
+                </a>
+              </li>
+              <li class="active">
+                <a href="#">
+                  <div class="profile-image">
+                    <img src="https://source.unsplash.com/46x46" />
+                  </div>
+                  <div class="user-name">Nume Prenume</div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="profile-image">
+                    <img src="https://source.unsplash.com/47x47" />
+                  </div>
+                  <div class="user-name">Nume Prenume</div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="profile-image">
+                    <img src="https://source.unsplash.com/48x48" />
+                  </div>
+                  <div class="user-name">Nume Prenume</div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="profile-image">
+                    <img src="https://source.unsplash.com/49x49" />
+                  </div>
+                  <div class="user-name">Nume Prenume</div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="profile-image">
+                    <img src="https://source.unsplash.com/50x50" />
+                  </div>
+                  <div class="user-name">Nume Prenume</div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </div>
+
+    <div class="middle-content mobile">
+      <ul class="page-nav">
+        <li class="active">
+          <a href="#">
+            <i class="fa fa-home"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-youtube-play"></i>
+            <span class="badge">12</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-shopping-bag"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-users"></i>
+            <span class="badge">3</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-grav"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
