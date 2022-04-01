@@ -155,6 +155,56 @@ label {
   left: calc(50% + 1rem);
 }
 
+.toast {
+  position: fixed;
+  right: -110%;
+  bottom: 4rem;
+  color: #fff;
+  background-color: #26c485;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 32rem;
+  z-index: 999;
+  transition: right 0.6s ease-in-out;
+}
+
+.toast.open {
+  right: 4rem;
+}
+
+.toast.error {
+  background-color: #ba1200;
+}
+
+.toast p {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+.toast ul {
+  padding-left: 3rem;
+}
+
+.toast li {
+  position: relative;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.toast li::before {
+  content: "";
+  display: block;
+  width: 1.4rem;
+  height: 0.4rem;
+  background-color: #fff;
+  position: absolute;
+  left: -2.1rem;
+  top: calc(50% - 0.2rem);
+  border-radius: 0.2rem;
+}
+
 /* END UI ELEMENTS */
 /* START HELPER CLASSER */
 
@@ -256,10 +306,33 @@ header .fa-search {
 }
 
 .sticky-content {
-  height: calc(100vh - 5rem);
+  height: calc(100vh - 25rem);
   position: sticky;
   top: 5rem;
   background-color: #ffffff;
+}
+
+.SPONS_MESSAGE {
+  height: 20rem;
+  position: relative;
+}
+
+.SPONS_MESSAGE a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+aside.right-content .SPONS_MESSAGE a img {
+  position: absolute;
+  width: 100%;
+  border-radius: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .page-nav {
