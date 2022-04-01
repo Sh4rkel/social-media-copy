@@ -11,4 +11,8 @@ I attache some photos to this README so you can see what I do until now. This ap
 ![image](https://user-images.githubusercontent.com/99269936/161296603-4478dac2-4a85-4bf0-b122-4667601b7eb3.png)
 
 ### Main page
-soon...
+
+####Not finished yet
+
+![image](https://user-images.githubusercontent.com/99269936/161303503-5db200da-0b9f-4dd2-8601-21908f25eb94.png)
+
